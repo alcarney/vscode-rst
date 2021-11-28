@@ -209,8 +209,8 @@
 			]
 		},
 		"block-comment": {
-			"begin": "^(\\s*)\\.{2}",
-			"while": "^\\1(?=\\s)|^\\s*$",
+			"begin": "^(\\s*)\\.{2}(\\s+|$)",
+			"while": "^\\1\\s{3}",
 			"name": "comment.block"
 		},
 		"literal-block": {
